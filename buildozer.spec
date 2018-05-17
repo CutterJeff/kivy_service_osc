@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Kivy service OSC demo
+title = Libby Kivy
 
 # (str) Package name
-package.name = oscservice
+package.name = Libby5
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.kivy
+package.domain = org.Libby
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -51,7 +51,7 @@ fullscreen = 0
 #
 
 # (list) Permissions
-android.permissions = INTERNET
+android.permissions = INTERNET,GPS
 
 # (int) Android API to use
 #android.api = 14
