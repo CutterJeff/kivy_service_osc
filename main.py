@@ -19,25 +19,20 @@ BoxLayout:
         Button:
             text: 'stop service'
             on_press: app.stop_service()
-
-    ScrollView:
-        Label:
-            id: label
-            size_hint_y: None
-            height: self.texture_size[1]
-            text_size: self.size[0], None
-
-    BoxLayout:
-        size_hint_y: None
-        height: '30sp'
         Button:
-            text: 'ping'
+            text: 'Comment'
             on_press: app.send()
         Button:
             text: 'clear'
             on_press: label.text = ''
         Label:
             id: date
+    ScrollView:
+        Label:
+            id: label
+            size_hint_y: None
+            height: self.texture_size[1]
+            text_size: self.size[0], None
 
 '''
 
